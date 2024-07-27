@@ -1,0 +1,231 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #33414e;
+}
+.navbar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 90px;
+    width: 100%;
+    background-color: #000000;
+   
+}
+
+.logo{
+    width: 180px;
+    height: 90px;
+    border: 2px solid rgb(255, 255, 255);
+    border-bottom-left-radius: 15px;
+    border-top-right-radius: 15px;
+    background-image: url("logo2-removebg-preview.png");
+    background-size: cover;
+    margin-right: 200px;
+    margin-bottom: 5px;
+    
+}
+a{
+    margin-right: 150px;
+    color: #caf0f8;
+    text-decoration: none;
+}
+a:hover{
+    color: rgb(2, 201, 12);
+}
+
+input{
+    /* margin-right: 10px; */
+    height: 40px;
+    width: 400px;
+    background-color: #ffffff00;
+    color: #ffffff;
+
+    border: 2px solid white;
+    border-bottom-left-radius: 15px;
+}
+input::placeholder, 
+textarea::placeholder {
+    color: #ffffff; /* Placeholder text ka color */
+    
+    text-align: center;
+}
+input:active{
+    border: none;
+}
+button{
+    margin-right: 10px;
+    margin-right: 0;
+    height: 43px;
+    width: 100px;
+    margin-right: 10px;
+    background: #ffffff00;
+    color: #ffffff;
+    border: 2px solid white;
+    border-top-right-radius: 15px;
+    border: 2px solid white;
+
+
+}
+button:hover{
+    background-color:gold ;
+    color: #000000;
+}
+
+.content{
+    height: 100vh;
+    width: 100%;
+    background-image: url("paper-style-dynamic-lines-background_23-2149008629.jpg");
+    background-size: cover;
+    display: flex;
+   flex-wrap: wrap;
+   
+}
+.con.h1{
+  color: whitesmoke;
+}
+
+
+footer{
+   
+ 
+    height: 200px;
+    width: 100%;
+    background-color: #000000;
+    color: white;
+    align-items: center;
+    justify-content: center;
+  text-align: center;
+   
+}
+.fooot{
+    margin-top: 20px;
+}
+
+.foot{
+    margin-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+
+}
+
+.foot3{
+    display: flex;
+    flex-wrap: wrap;
+}
+ul{
+    margin-left: 100px;
+
+}
+li{
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+.cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    border: 2px white solid;
+   margin-bottom: 400px;
+   margin-top: -300px;
+}
+.cont2{
+    float: right;
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+    background-image: url("con1.jpg");
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+ 
+
+}
+.cont1{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: right;
+}
+
+.conte{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    border: 2px white solid;
+   margin-bottom: 400px;
+ 
+   
+}
+.conte1{
+    float: right;
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+    background-image: url("con2.jpg");
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 20px;
+ 
+
+}
+.conte2{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+}
+
+
+
+.conten{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 300px;
+    width: 100%;
+    border: 2px white solid;
+   margin-bottom: 0px;
+   margin-top: -300px;
+}
+.contes2{
+    float: right;
+    width: 250px;
+    height: 250px;
+    border: 2px solid white;
+    background-image: url("con3.jpg");
+    background-size: cover;
+    border-top-right-radius: 15px;
+    border-bottom-left-radius: 15px;
+    margin-left: 20px;
+    margin-right: 10px;
+ 
+
+}
+.contes1{
+    font-family: "Sedan SC", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 16px;
+    text-align: right;
+   
+}
+
+.para1{
+    text-align: center;
+}

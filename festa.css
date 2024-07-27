@@ -1,0 +1,219 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+body{
+    background-image: url("wood-table-top-and-blurred-bokeh-office-interior-space-background.webp");
+    background-size: cover;
+
+}
+
+.main{
+    margin-top: 100px;
+   
+}
+
+
+
+.logo{
+    margin-left: 100px;
+    height: 120px;
+    width: 200px;
+    font-size: 50PX;
+    margin-top: 10px;
+    display: flex;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: burlywood; 
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000, 6px 6px 0 #000;  
+    
+   
+    
+}
+
+
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin-left: 180px;
+    color: white;
+    position: relative;
+}
+
+.content .par{
+    padding-left: 20px;
+    padding-bottom: 25px;
+    font-family: Arial;
+    letter-spacing: 1.2px;
+    line-height: 30px;
+}
+
+.content h1 {
+    font-size: 60px;
+    font-family: "Protest Riot", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    color: black;
+    -webkit-text-stroke-width: 2px; 
+    -webkit-text-stroke-color: burlywood; 
+    text-shadow: 2px 2px 0 #000, 4px 4px 0 #000, 6px 6px 0 #000;  
+}
+
+#para{
+    margin-top: 20px;
+    font-family: "Noto Serif Ottoman Siyaq", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 30px;
+    color: #ffffff;
+    /* text-shadow: 2px 2px 0 #ffffff, 4px 4px 0 #ffffff, 6px 6px 0 #ffffff;   */
+   
+
+
+}
+.con{
+    width: 160px;
+    height: 40px;
+    background: burlywood;
+    border: none;
+    margin-bottom: 20px;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: .4 ease;
+    color: white;
+    margin-left: 15px;
+}
+
+.con a{
+    text-decoration: none;
+    color: white;
+    transition: .3 ease;
+}
+
+.con:hover{
+    background-color: rgb(52, 32, 5);
+    color:white ;
+}
+.content span{
+    color: #ff7200;
+    font-size: 60px;
+
+}
+.form{
+    width: 250px;
+    height: 380px;
+  background-color: rgba(0, 0, 0, 0.849);
+    position: absolute;
+    top: -20px;
+    left: 870px;
+    border-radius: 10px;
+    padding: 25px;
+}
+
+.form h2{
+    width: 220px;
+    font-family: sans-serif;
+    text-align: center;
+    color: #b9560f;
+    font-size: 22px;
+    background-color:burlywood;
+    border-radius: 10px;
+    margin: 2px;
+    padding: 8px;
+}
+
+.form input{
+    width: 240px;
+    height: 35px;
+    background: transparent;
+    border-bottom: 1px solid burlywood;
+    border-top: none;
+    border-right: none;
+    border-left: none;
+    color: white;
+    font-size: 15px;
+    letter-spacing: 1px;
+     margin-top: 30px;
+     font-family: sans-serif;
+
+}
+
+.form input.focus{
+    outline: none;
+
+}
+::placeholder{
+    color: white;
+    font-family: Arial;
+}
+
+.btnn{
+    width: 240px;
+    height: 40px;
+    background: burlywood;
+    border: none;
+    margin-top: 30px;
+    font-size: 18px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: rgb(52, 7, 7);
+    transition: 0.4s ease;
+
+}
+
+.btnn:hover{
+    background: rgb(46, 27, 1);
+    color: #da6027;
+}
+
+.btnn a{
+    text-decoration: none;
+    color: rgb(255, 253, 250);
+    font-weight: bold;
+}
+
+.form .link{
+    font-family: Arial;
+    font-size: 17px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form .link a{
+    text-decoration: none;
+    color: burlywood;
+     
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    
+    
+}
+@media screen and (max-width:1200px){
+    .navbar{
+        width: 100%;
+        height: 100px;
+    }
+    ul{
+        margin-left: 30px;
+
+    }
+    ul li{
+        margin-left: 60px;
+
+    }
+    ul li a{
+        font-size: 1.6vw;
+    }
+    
+}
